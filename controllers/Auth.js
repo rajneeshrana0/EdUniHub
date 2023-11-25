@@ -247,7 +247,7 @@ exports.login = async (req, res) => {
             const payload = {
                 email: user.email,
                 id: user._id,
-                role: user.role,
+                accountType: user.accountType,
 
             }
 
