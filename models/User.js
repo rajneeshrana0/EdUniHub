@@ -39,11 +39,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    token :{
+    token: {
         type: String,
     },
-    resetPasswordExpires:{
-        type:Date,
+    resetPasswordExpires: {
+        type: Date,
     },
     courseProgress: [
         {

@@ -94,30 +94,30 @@ exports.resetPassword = async (req, res) => {
         }
         // token time check
 
-        if (userDetails.resetPasswordExpires > Date.now() ) {
-            
+        if (userDetails.resetPasswordExpires > Date.now()) {
+
             return res.json({
-                success:false,
+                success: false,
                 message: 'Token is Expired, Please regenerate Token',
             });
         }
         // hash password
-const hashedPassword = await bcrypt.hash(password,10);
+        const hashedPassword = await bcrypt.hash(password, 10);
 
         // password update
         await User.findOneAndUpdate(
 
-            {token:token},
-            {password:hashedPassword},
-            {new:true},
+            { token: token },
+            { password: hashedPassword },
+            { new: true },
 
         );
 
         // return response
 
         return res.status(200).json({
-            success:true,
-            message:'Password reset Successfull',
+            success: true,
+            message: 'Password reset Successfull',
         })
 
     } catch (error) {

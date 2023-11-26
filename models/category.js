@@ -1,7 +1,7 @@
-const { default: mongoose } = require("mongoose");
+
 const moongoose = require("mongoose");
 
-const tagSchema = new mongoose.Schema({
+const categorySchema = new mongoose.Schema({
 name:{
     type: String,
     required: true,
@@ -17,4 +17,4 @@ course:{
 });
 
 
-module.exports = mongoose.model("Tag", tagSchema);
+module.exports = mongoose.model("Category", categorySchema);

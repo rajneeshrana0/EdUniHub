@@ -5,13 +5,13 @@ const subSectionSchema = new mongoose.Schema({
         type: String,
 
     },
-    timeDuration:{
-        type:String,
-    },
-    description:{
+    timeDuration: {
         type: String,
     },
-    videoUrl:{
+    description: {
+        type: String,
+    },
+    videoUrl: {
         type: String,
     },
 });
