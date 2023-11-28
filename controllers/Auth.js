@@ -24,6 +24,8 @@ exports.signup = async (req, res) => {
 			otp,
 		} = req.body;
 		// Check if All Details are there or not
+		console.log(otp)
+		console.log(firstName)
 		if (
 			!firstName ||
 			!lastName ||
@@ -57,6 +59,7 @@ exports.signup = async (req, res) => {
 
 		// Find the most recent OTP for the email
 		const response = await OTP.find({ email }).sort({ createdAt: -1 }).limit(1);
+		console.log(response)
 		console.log(response);
 		if (response.length === 0) {
 			// OTP not found for the email

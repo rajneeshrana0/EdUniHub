@@ -34,7 +34,7 @@ exports.createSection = async (req, res) => {
 				},
 			})
 			.exec();
-
+		console.log(updatedCourse);
 		// Return the updated course object in the response
 		res.status(200).json({
 			success: true,
