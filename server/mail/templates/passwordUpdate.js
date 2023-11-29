@@ -1,5 +1,5 @@
 exports.passwordUpdated = (email, name) => {
-	return `<!DOCTYPE html>
+    return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -56,7 +56,7 @@ exports.passwordUpdated = (email, name) => {
     <body>
         <div class="container">
             <a href="https://portfolio-six-phi-17.vercel.app/"><img class="logo"
-                    src="https://i.ibb.co/7Xyj3PC/logo.png" alt="EdUniHub Logo"></a>
+                    src="https://res.cloudinary.com/dbn9fwzwk/image/upload/v1701266218/EdUniHub-logo_zbd1qq.png" alt="EdUniHub Logo"></a>
             <div class="message">Password Update Confirmation</div>
             <div class="body">
                 <p>Hey ${name},</p>
@@ -66,7 +66,7 @@ exports.passwordUpdated = (email, name) => {
             </div>
             <div class="support">If you have any questions or need further assistance, please feel free to reach out to us
                 at
-                <a href="mailto:info@ednuihub.com">info@ednuihub.com</a>. We are here to help!
+                <a href="mailto:info@edunihub.com">info@edunihub.com</a>. We are here to help!
             </div>
         </div>
     </body>
