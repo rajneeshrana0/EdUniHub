@@ -10,16 +10,14 @@ import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
-  "Articles",
+  
   "Blog",
-  "Chart Sheet",
-  "Code challenges",
+  
   "Docs",
   "Projects",
-  "Videos",
-  "Workspaces",
+  
 ];
-const Plans = ["Paid memberships", "For students", "Business solutions"];
+const Plans = ["Paid memberships", "For students"];
 const Community = ["Forums", "Chapters", "Events"];
 
 const Footer = () => {
