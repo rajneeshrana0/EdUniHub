@@ -4,11 +4,12 @@ import CourseCard from "./CourseCard";
 import HighlightText from "./HighlightText";
 
 const tabsName = [
-  "Free",
-  "New to coding",
-  "Most popular",
-  "Skills paths",
-  "Career paths",
+  "BTECH",
+  "BCA",
+  "MCA",
+  "BBA",
+  "MBA",
+  "PHARMACY",
 ];
 
 const ExploreMore = () => {

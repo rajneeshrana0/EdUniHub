@@ -118,7 +118,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-white"}
-            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
+            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Placement Prepration</div>\n)\n}\nexport default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
@@ -151,8 +151,8 @@ function Home() {
           {/* Job that is in Demand - Section 1 */}
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
-              Get the skills you need for a{" "}
-              <HighlightText text={"job that is in demand."} />
+            Equip Yourself for In-Demand Careers:{" "}
+              <HighlightText text={"Acquire Essential Skills for Today's Job Market in College."} />
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
@@ -177,7 +177,7 @@ function Home() {
       {/* Section 3 */}
       <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
         {/* Become a instructor section */}
-        <InstructorSection />
+        {/* <InstructorSection /> */}
 
         {/* Reviws from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8">
