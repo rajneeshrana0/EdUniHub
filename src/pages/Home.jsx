@@ -118,7 +118,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-white"}
-            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
+            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Placement Prepration</div>\n)\n}\nexport default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
@@ -177,7 +177,7 @@ function Home() {
       {/* Section 3 */}
       <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
         {/* Become a instructor section */}
-        <InstructorSection />
+        {/* <InstructorSection /> */}
 
         {/* Reviws from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8">

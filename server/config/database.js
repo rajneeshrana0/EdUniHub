@@ -8,7 +8,7 @@ exports.connect = () => {
     .connect(MONGODB_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      tls: true,
+   
 
     })
     .then(() => {
