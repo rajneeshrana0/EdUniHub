@@ -17,7 +17,7 @@ const Resources = [
   "Projects",
   
 ];
-const Plans = ["Paid memberships", "For students", "Business solutions"];
+const Plans = ["Paid memberships", "For students"];
 const Community = ["Forums", "Chapters", "Events"];
 
 const Footer = () => {
