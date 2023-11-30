@@ -72,20 +72,20 @@ export const HomePageExplore = [
         tag: 'MBA',
         courses : [
             {
-                heading : "Flask",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+                heading : "MBA 1st Sem",
+                description : "MBA stands for Master of Business Administration.Opportunity to Learn Managerial and Entrepreneurial Skills.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Django",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
+                heading : "MBA 2nd Sem",
+                description : "MBA stands for Master of Business Administration.Opportunity to Learn Managerial and Entrepreneurial Skills.",
                 level : 'Beginner',
                 lessionNumber : 6
             },  
             {
-                heading : "Fast API",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
+                heading : "MBA 3rd Sem",
+                description : "MBA stands for Master of Business Administration.Opportunity to Learn Managerial and Entrepreneurial Skills.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
@@ -95,20 +95,20 @@ export const HomePageExplore = [
         tag: 'MCA',
         courses : [
             {
-                heading : "Next.js",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+                heading : "MCA 1st Sem",
+                description : "The Master of Computer Applications (MCA) program is a two-year professional post-graduate program.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Nuxt.js",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
+                heading : "MCA 2nd Sem",
+                description : "The Master of Computer Applications (MCA) program is a two-year professional post-graduate program. ",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Sanity",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
+                heading : "MCA 3rd Sem",
+                description : "The Master of Computer Applications (MCA) program is a two-year professional post-graduate program.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
