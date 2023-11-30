@@ -1,6 +1,6 @@
 export const HomePageExplore = [
     {
-        tag: 'Free',
+        tag: 'Btech',
         courses : [
             {
                 heading : "Btech",
@@ -23,7 +23,7 @@ export const HomePageExplore = [
         ]
     },
     {
-        tag: 'New to coding',
+        tag: 'BCA',
         courses : [
             {
                 heading : "HTML",
@@ -46,7 +46,7 @@ export const HomePageExplore = [
         ]
     },
     {
-        tag: 'Most popular',
+        tag: 'BBA',
         courses : [
             {
                 heading : "Java",
@@ -69,7 +69,7 @@ export const HomePageExplore = [
         ]
     },
     {
-        tag: 'Skills paths',
+        tag: 'MBA',
         courses : [
             {
                 heading : "Flask",
@@ -92,7 +92,7 @@ export const HomePageExplore = [
         ]
     },
     {
-        tag: 'Career paths',
+        tag: 'MCA',
         courses : [
             {
                 heading : "Next.js",
