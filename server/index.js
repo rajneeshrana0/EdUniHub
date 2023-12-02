@@ -9,7 +9,7 @@ const app = express();
 // const paymentRoutes = require("./routes/Payments");
 // const contactUsRoute = require("./routes/Contact");
 
-const userRoute = require("./routes/User");
+
 const database = require("./config/database");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
@@ -54,7 +54,7 @@ cloudinaryConnect();
 
 
 
-app.use("/api/v1/User",userRoute);
+
 
 // Testing the server
 app.get("/", (req, res) => {
