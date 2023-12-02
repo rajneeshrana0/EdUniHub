@@ -11,8 +11,8 @@ const app = express();
 const database = require("./config/database");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-// const { cloudinaryConnect } = require("./config/cloudinary");
-// const fileUpload = require("express-fileupload");
+const { cloudinaryConnect } = require("./config/cloudinary");
+const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 
 // Setting up port number
@@ -33,15 +33,15 @@ app.use(
 		credentials: true,
 	})
 );
-// app.use(
-// 	fileUpload({
-// 		useTempFiles: true,
-// 		tempFileDir: "/tmp/",
-// 	})
-// );
+app.use(
+	fileUpload({
+		useTempFiles: true,
+		tempFileDir: "/tmp/",
+	})
+);
 
 // Connecting to cloudinary
-// cloudinaryConnect();
+cloudinaryConnect();
 
 // Setting up routes
 // app.use("/api/v1/auth", userRoutes);
