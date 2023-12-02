@@ -50,7 +50,7 @@ cloudinaryConnect();
 // app.use("/api/v1/payment", paymentRoutes);
 // app.use("/api/v1/reach", contactUsRoute);
 
-app.unsubscribe("/api/v1/contact",contactRoutes);
+app.use("/api/v1/contact",contactRoutes);
 
 
 
