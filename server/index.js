@@ -1,11 +1,14 @@
 const express = require("express");
 const app = express();
 
+// const userRoutes = require("./routes/user");
+// const profileRoutes = require("./routes/profile");
+// const paymentRoutes = require("./routes/Payments");
+// const courseRoutes = require("./routes/Course");
+// const contactUsRoute = require("./routes/Contact");
+
 const userRoutes = require("./routes/user");
-const profileRoutes = require("./routes/profile");
-const paymentRoutes = require("./routes/Payments");
-const courseRoutes = require("./routes/Course");
-const contactUsRoute = require("./routes/Contact");
+
 const database = require("./config/database");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
@@ -41,11 +44,18 @@ app.use(
 cloudinaryConnect();
 
 //routes
-app.use("/api/v1/auth", userRoutes);
-app.use("/api/v1/profile", profileRoutes);
-app.use("/api/v1/course", courseRoutes);
-app.use("/api/v1/payment", paymentRoutes);
-app.use("/api/v1/reach", contactUsRoute);
+// app.use("/api/v1/auth", userRoutes);
+// app.use("/api/v1/profile", profileRoutes);
+// app.use("/api/v1/course", courseRoutes);
+// app.use("/api/v1/payment", paymentRoutes);
+// app.use("/api/v1/reach", contactUsRoute);
+
+
+
+app.use("/api/v1/auth",userRoutes);
+
+
+
 
 //def route
 
