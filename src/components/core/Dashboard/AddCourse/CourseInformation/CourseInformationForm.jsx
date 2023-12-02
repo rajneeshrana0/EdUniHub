@@ -12,10 +12,10 @@ import {
 } from "../../../../../services/operations/courseDetailsAPI"
 import { setCourse, setStep } from "../../../../../slices/courseSlice"
 import { COURSE_STATUS } from "../../../../../utils/constants"
-import IconBtn from "../../../../Common/IconBtn"
+import IconBtn from "../../../../common/IconBtn"
 import Upload from "../Upload"
 import ChipInput from "./ChipInput"
-import RequirementsField from "./RequirementsField"
+import RequirementsField from "./RequirementField"
 
 export default function CourseInformationForm() {
   const {

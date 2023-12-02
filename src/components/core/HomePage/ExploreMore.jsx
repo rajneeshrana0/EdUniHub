@@ -4,12 +4,11 @@ import CourseCard from "./CourseCard";
 import HighlightText from "./HighlightText";
 
 const tabsName = [
-  "BTECH",
-  "BCA",
-  "MCA",
-  "BBA",
-  "MBA",
-  "PHARMACY",
+  "Free",
+  "New to coding",
+  "Most popular",
+  "Skills paths",
+  "Career paths",
 ];
 
 const ExploreMore = () => {
@@ -32,9 +31,9 @@ const ExploreMore = () => {
       <div>
         <div className="text-4xl font-semibold text-center my-10">
           Unlock the
-          <HighlightText text={"Power of Academics"} />
+          <HighlightText text={"Power of Code"} />
           <p className="text-center text-richblack-300 text-lg font-semibold mt-1">
-          Craft Your Vision: Acquire the Skills to Build Anything Imaginable in Your College Journey.
+            Learn to Build Anything You Can Imagine
           </p>
         </div>
       </div>

@@ -1,6 +1,4 @@
-
-// const BASE_URL = process.env.REACT_APP_BASE_URL
-const BASE_URL = "http://localhost:4000/api/v1"
+const BASE_URL = "https://localhost:4000/api/v1"
 
 // AUTH ENDPOINTS
 export const endpoints = {
@@ -10,8 +8,6 @@ export const endpoints = {
   RESETPASSTOKEN_API: BASE_URL + "/auth/reset-password-token",
   RESETPASSWORD_API: BASE_URL + "/auth/reset-password",
 }
-
-console.log(endpoints)
 
 // PROFILE ENDPOINTS
 export const profileEndpoints = {
@@ -62,7 +58,6 @@ export const categories = {
 export const catalogData = {
   CATALOGPAGEDATA_API: BASE_URL + "/course/getCategoryPageDetails",
 }
-console.log(catalogData);
 // CONTACT-US API
 export const contactusEndpoint = {
   CONTACT_US_API: BASE_URL + "/reach/contact",

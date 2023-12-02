@@ -66,19 +66,19 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://portfolio-six-phi-17.vercel.app/"><img class="logo"
-					src="https://res.cloudinary.com/dbn9fwzwk/image/upload/v1701266218/EdUniHub-logo_zbd1qq.png" alt="EdUniHub Logo"></a>
+			<a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
+					src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyNotion Logo"></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
-				<p>Thank you for registering with EdUniHub. To complete your registration, please use the following OTP
+				<p>Thank you for registering with StudyNotion. To complete your registration, please use the following OTP
 					(One-Time Password) to verify your account:</p>
 				<h2 class="highlight">${otp}</h2>
 				<p>This OTP is valid for 5 minutes. If you did not request this verification, please disregard this email.
 				Once your account is verified, you will have access to our platform and its features.</p>
 			</div>
 			<div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-					href="mailto:info@edunihub.com">info@edunihub.com</a>. We are here to help!</div>
+					href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!</div>
 		</div>
 	</body>
 	

@@ -1,137 +1,114 @@
 export const HomePageExplore = [
     {
-        tag: 'BTECH',
+        tag: 'Free',
         courses : [
             {
-                heading : "BTECH 1st Sem",
-                description : "BTech stands for Bachelor of Technology. It is an undergraduate four-year course and is offered in various disciplines and specialisations.",
+                heading : "Learn HTML",
+                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BTECH 2nd Sem",
-                description : "BTech stands for Bachelor of Technology. It is an undergraduate four-year course and is offered in various disciplines and specialisations.",
+                heading : "Learn CSS",
+                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BTECH 3rd Sem",
-                description : "BTech stands for Bachelor of Technology. It is an undergraduate four-year course and is offered in various disciplines and specialisations.",
+                heading : "Responsive Web design",
+                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'BCA',
+        tag: 'New to coding',
         courses : [
             {
-                heading : "BCA 1st Sem",
-                description : "BCA is Bachelor's in Computer Application, which is a 3-year undergraduate degree programme that focuses on knowledge of the basics of computer application and software development.",
+                heading : "HTML",
+                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BCA 2nd Sem",
-                description : "BCA is Bachelor's in Computer Application, which is a 3-year undergraduate degree programme that focuses on knowledge of the basics of computer application and software development",
+                heading : "CSS",
+                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BCA 3rd Sem ",
-                description : "BCA is Bachelor's in Computer Application, which is a 3-year undergraduate degree programme that focuses on knowledge of the basics of computer application and software development",
+                heading : "Responsive ",
+                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'MCA',
+        tag: 'Most popular',
         courses : [
             {
-                heading : "MCA 1st Sem",
-                description : "Master of Computer Applications (MCA) is a two-year professional post-graduate course for candidates wanting to delve deeper into the world of Computer Application development with the help of learning modern programming language.",
+                heading : "Java",
+                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "MCA 3rd Sem",
-                description : "Master of Computer Applications (MCA) is a two-year professional post-graduate course for candidates wanting to delve deeper into the world of Computer Application development with the help of learning modern programming language.",
+                heading : "Python",
+                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "MCA 3rd Sem",
-                description : "Master of Computer Applications (MCA) is a two-year professional post-graduate course for candidates wanting to delve deeper into the world of Computer Application development with the help of learning modern programming language.",
+                heading : "SCSS",
+                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'BBA',
+        tag: 'Skills paths',
         courses : [
             {
-                heading : "BBA 1st Sem",
-                description : "The BBA course is available for students in full-time, correspondence, and online modes of education.",
+                heading : "Flask",
+                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BBA 2nd Sem",
-                description : "The BBA course is available for students in full-time, correspondence, and online modes of education.",
+                heading : "Django",
+                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "BBA 3rd Sem",
-                description : "The BBA course is available for students in full-time, correspondence, and online modes of education.",
+                heading : "Fast API",
+                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'MBA',
+        tag: 'Career paths',
         courses : [
             {
-                heading : "MBA 1st Sem",
-                description : "MBA (Master of Business Administration) degree is ideal for people aspiring to attain business skills. It shapes your career as a business leader at the executive level",
+                heading : "Next.js",
+                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "MBA 2nd Sem",
-                description : "MBA (Master of Business Administration) degree is ideal for people aspiring to attain business skills. It shapes your career as a business leader at the executive level",
+                heading : "Nuxt.js",
+                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "MBA 3rd Sem",
-                description : "MBA (Master of Business Administration) degree is ideal for people aspiring to attain business skills. It shapes your career as a business leader at the executive level",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-        ]
-    },
-    {
-        tag: 'PHARMACY',
-        courses : [
-            {
-                heading : "PHARMACY 1st Sem",
-                description : "Pharmacy is the science of preparing and dispensing medical drugs. The study of pharmacy involves chemistry and pharmaceutics, among other specialist topics",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "PHARMACY 2nd Sem",
-                description : "Pharmacy is the science of preparing and dispensing medical drugs. The study of pharmacy involves chemistry and pharmaceutics, among other specialist topics",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "PHARMACY 3rd Sem",
-                description : "Pharmacy is the science of preparing and dispensing medical drugs. The study of pharmacy involves chemistry and pharmaceutics, among other specialist topics",
+                heading : "Sanity",
+                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
                 level : 'Beginner',
                 lessionNumber : 6
             },

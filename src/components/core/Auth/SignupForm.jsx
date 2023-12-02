@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom"
 import { sendOtp } from "../../../services/operations/authAPI"
 import { setSignupData } from "../../../slices/authSlice"
 import { ACCOUNT_TYPE } from "../../../utils/constants"
-import Tab from "../../Common/Tab"
+import Tab from "../../common/Tab"
 
 function SignupForm() {
   const navigate = useNavigate()
@@ -50,15 +50,11 @@ function SignupForm() {
       accountType,
     }
 
-    console.log(signupData)
-
     // Setting signup data to state
     // To be used after otp verification
-    const chec = dispatch(setSignupData(signupData))
-    console.log(chec)
+    dispatch(setSignupData(signupData))
     // Send OTP to user for verification
-    const check = dispatch(sendOtp(formData.email, navigate))
-    console.log(check)
+    dispatch(sendOtp(formData.email, navigate))
 
     // Reset
     setFormData({
@@ -78,13 +74,11 @@ function SignupForm() {
       tabName: "Student",
       type: ACCOUNT_TYPE.STUDENT,
     },
-    /*
     {
       id: 2,
       tabName: "Instructor",
       type: ACCOUNT_TYPE.INSTRUCTOR,
     },
-    */
   ]
 
   return (
@@ -105,7 +99,10 @@ function SignupForm() {
               value={firstName}
               onChange={handleOnChange}
               placeholder="Enter first name"
-              className="form-style w-full"
+              style={{
+                boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
+              }}
+              className="w-full rounded-[0.5rem] bg-richblack-800 p-[12px] text-richblack-5"
             />
           </label>
           <label>
@@ -119,7 +116,10 @@ function SignupForm() {
               value={lastName}
               onChange={handleOnChange}
               placeholder="Enter last name"
-              className="form-style w-full"
+              style={{
+                boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
+              }}
+              className="w-full rounded-[0.5rem] bg-richblack-800 p-[12px] text-richblack-5"
             />
           </label>
         </div>
@@ -134,7 +134,10 @@ function SignupForm() {
             value={email}
             onChange={handleOnChange}
             placeholder="Enter email address"
-            className="form-style w-full"
+            style={{
+              boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
+            }}
+            className="w-full rounded-[0.5rem] bg-richblack-800 p-[12px] text-richblack-5"
           />
         </label>
         <div className="flex gap-x-4">
@@ -149,7 +152,10 @@ function SignupForm() {
               value={password}
               onChange={handleOnChange}
               placeholder="Enter Password"
-              className="form-style w-full !pr-10"
+              style={{
+                boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
+              }}
+              className="w-full rounded-[0.5rem] bg-richblack-800 p-[12px] pr-10 text-richblack-5"
             />
             <span
               onClick={() => setShowPassword((prev) => !prev)}
@@ -173,7 +179,10 @@ function SignupForm() {
               value={confirmPassword}
               onChange={handleOnChange}
               placeholder="Confirm Password"
-              className="form-style w-full !pr-10"
+              style={{
+                boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
+              }}
+              className="w-full rounded-[0.5rem] bg-richblack-800 p-[12px] pr-10 text-richblack-5"
             />
             <span
               onClick={() => setShowConfirmPassword((prev) => !prev)}

@@ -5,15 +5,15 @@ import { Link } from "react-router-dom"
 // Image and Video Import
 import Banner from "../assets/Images/banner.mp4"
 // Component Imports
-import Footer from "../components/Common/Footer"
-import ReviewSlider from "../components/Common/ReviewSlider"
+import Footer from "../components/common/Footer"
+import ReviewSlider from "../components/common/ReviewSlider"
 import CTAButton from "../components/core/HomePage/Button"
 import CodeBlocks from "../components/core/HomePage/CodeBlocks"
 import ExploreMore from "../components/core/HomePage/ExploreMore"
 import HighlightText from "../components/core/HomePage/HighlightText"
 import InstructorSection from "../components/core/HomePage/InstructorSection"
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection"
-import TimelineSection from "../components/core/HomePage/Timeline"
+import TimelineSection from "../components/core/HomePage/TimelineSection"
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
         <Link to={"/signup"}>
           <div className="group mx-auto mt-16 w-fit rounded-full bg-richblack-800 p-1 font-bold text-richblack-200 drop-shadow-[0_1.5px_rgba(255,255,255,0.25)] transition-all duration-200 hover:scale-95 hover:drop-shadow-none">
             <div className="flex flex-row items-center gap-2 rounded-full px-10 py-[5px] transition-all duration-200 group-hover:bg-richblack-900">
-              <p>Become an Member</p>
+              <p>Become an Instructor</p>
               <FaArrowRight />
             </div>
           </div>
@@ -32,15 +32,16 @@ function Home() {
 
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
-        Mastering College Success: 
-          <HighlightText text={"Elevate Your Journey with Essential Skills"} />
+          Empower Your Future with
+          <HighlightText text={"Coding Skills"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-
-
-          Explore our comprehensive online  courses designed specifically for college students. Gain the flexibility to learn at your own pace, whether you're on campus or anywhere in the world. Elevate your coding skills and excel in your academic journey, all on your terms.
+          With our online coding courses, you can learn at your own pace, from
+          anywhere in the world, and get access to a wealth of resources,
+          including hands-on projects, quizzes, and personalized feedback from
+          instructors.
         </div>
 
         {/* CTA Buttons */}
@@ -71,12 +72,13 @@ function Home() {
             position={"lg:flex-row"}
             heading={
               <div className="text-4xl font-semibold">
-               Unlock Your 
-                <HighlightText text={"Academic Potential "} /> with Our Comprehensive Online Courses.
+                Unlock your
+                <HighlightText text={"coding potential"} /> with our online
+                courses.
               </div>
             }
             subheading={
-              "Learn from the Best: Our Courses, Crafted by Industry Experts, Transform Passion into Proficiency."
+              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -89,7 +91,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-yellow-25"}
-            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>EdUniHub</title>\n</head>\n<body>\n<h1><a href="/">College Subject</a></h1>\n<nav> <a href="/one">Previous Year Paper</a> <a href="/two">Quiz</a> <a href="/three">Labs</a>\n</nav>\n</body>`}
+            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
             backgroundGradient={<div className="codeblock1 absolute"></div>}
           />
         </div>
@@ -100,12 +102,12 @@ function Home() {
             position={"lg:flex-row-reverse"}
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
-                Embark on Your 
-                <HighlightText text={"Academic Adventure "} />
+                Start
+                <HighlightText text={"coding in seconds"} />
               </div>
             }
             subheading={
-              "Take the Plunge into Academic Discovery: Immerse Yourself in College Subjects with Practical Learning from the Get-Go."
+              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
             }
             ctabtn1={{
               btnText: "Continue Lesson",
@@ -118,7 +120,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-white"}
-            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Placement Prepration</div>\n)\n}\nexport default Home;`}
+            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
@@ -151,12 +153,12 @@ function Home() {
           {/* Job that is in Demand - Section 1 */}
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
-            Equip Yourself for In-Demand Careers:{" "}
-              <HighlightText text={"Acquire Essential Skills for Today's Job Market in College."} />
+              Get the skills you need for a{" "}
+              <HighlightText text={"job that is in demand."} />
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern EdUniHub is the dictates its own terms. Today, to
+                The modern StudyNotion is the dictates its own terms. Today, to
                 be a competitive specialist requires more than professional
                 skills.
               </div>
@@ -177,7 +179,7 @@ function Home() {
       {/* Section 3 */}
       <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
         {/* Become a instructor section */}
-        {/* <InstructorSection /> */}
+        <InstructorSection />
 
         {/* Reviws from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8">
