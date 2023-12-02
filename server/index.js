@@ -9,8 +9,8 @@ const app = express();
 // const paymentRoutes = require("./routes/Payments");
 // const contactUsRoute = require("./routes/Contact");
 const database = require("./config/database");
-// const cookieParser = require("cookie-parser");
-// const cors = require("cors");
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
 // const { cloudinaryConnect } = require("./config/cloudinary");
 // const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
@@ -26,13 +26,13 @@ database.connect();
  
 // Middlewares
 app.use(express.json());
-// app.use(cookieParser());
-// app.use(
-// 	cors({
-// 		origin: "*",
-// 		credentials: true,
-// 	})
-// );
+app.use(cookieParser());
+app.use(
+	cors({
+		origin: "*",
+		credentials: true,
+	})
+);
 // app.use(
 // 	fileUpload({
 // 		useTempFiles: true,
