@@ -12,15 +12,14 @@ const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
   "Articles",
   "Blog",
-  "Chart Sheet",
+
   "Code challenges",
   "Docs",
   "Projects",
-  "Videos",
-  "Workspaces",
+
 ];
-const Plans = ["Paid memberships", "For students", "Business solutions"];
-const Community = ["Forums", "Chapters", "Events"];
+const Plans = ["Paid memberships", "For students"];
+const Community = ["Forums", "Events"];
 
 const Footer = () => {
   return (
@@ -158,11 +157,10 @@ const Footer = () => {
               return (
                 <div
                   key={i}
-                  className={` ${
-                    BottomFooter.length - 1 === i
+                  className={` ${BottomFooter.length - 1 === i
                       ? ""
                       : "border-r border-richblack-700 cursor-pointer hover:text-richblack-50 transition-all duration-200"
-                  } px-3 `}
+                    } px-3 `}
                 >
                   <Link to={ele.split(" ").join("-").toLocaleLowerCase()}>
                     {ele}
@@ -172,7 +170,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ CodeHelp © 2023 Studynotion</div>
+          <div className="text-center">Made with ❤️ EdUniHub © 2023 EdUniHub</div>
         </div>
       </div>
     </div>
