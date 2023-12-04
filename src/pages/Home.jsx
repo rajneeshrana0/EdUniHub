@@ -70,12 +70,12 @@ function Home() {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock your
-                <HighlightText text={"coding potential"} /> with our online
+                <HighlightText text={"acedmics potential"} /> with our online
                 courses.
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+              "Our academic courses are intricately curated and instructed by esteemed industry professionals renowned for their extensive expertise in coding. These dedicated educators, equipped with years of experience, are committed to sharing their profound knowledge to prepare you thoroughly for your college academic examinations."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -88,7 +88,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-yellow-25"}
-            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
+            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>EdUniHub</title>\n</head>\n<body>\n<h1><a href="/">College Subjects</a></h1>\n<nav> <a href="/paper">Previous Year Paper</a> <a href="/quiz">Quiz</a> <a href="/lab">Labs</a>\n</nav>\n</body>`}
             backgroundGradient={<div className="codeblock1 absolute"></div>}
           />
         </div>
@@ -99,8 +99,8 @@ function Home() {
             position={"lg:flex-row-reverse"}
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
-                Start
-                <HighlightText text={"coding in seconds"} />
+                Embark on your
+                <HighlightText text={"Acedmics Adventure"} />
               </div>
             }
             subheading={
@@ -117,7 +117,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-white"}
-            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
+            codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Prep = () => {\nreturn (\n<div>Placement Prepration</div>\n)\n}\nexport default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
         </div>
@@ -151,11 +151,11 @@ function Home() {
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
               Get the skills you need for a{" "}
-              <HighlightText text={"job that is in demand."} />
+              <HighlightText text={"Excel your acedmics."} />
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern StudyNotion is the dictates its own terms. Today, to
+                The modern EdUniHub is the dictates its own terms. Today, to
                 be a competitive specialist requires more than professional
                 skills.
               </div>

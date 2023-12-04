@@ -1,14 +1,14 @@
 {
-	"name": "studynotion-backend",
+	"name": "edunihub-backend",
 	"version": "1.0.0",
-	"description": "studynotion-backend",
+	"description": "edunihub-backend",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
-		"studynotion-backend"
+		"edunihub-backend"
 	],
 	"author": "Saikat Mukherjee",
 	"license": "ISC",
